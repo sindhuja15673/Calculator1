@@ -55,3 +55,15 @@ button{
 button:hover{
   background-color: #555;
 }
+@media (prefers-reduced-motion: no-preference) {
+  .cal{
+    width: auto;
+    height: auto;
+  }
+  .calculator{
+    width:auto;
+  }
+  .background-image{
+    width: auto;
+  }
+}
