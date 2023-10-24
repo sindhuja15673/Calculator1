@@ -5,7 +5,6 @@ const App = () => {
 
   const [display, setDisplay] = useState(0);
   const [currentOperand, setCurrentOperand] = useState('')
-  // const [previousOperand, setPreviousOperand] = useState('');
   const [operator, setOperator] = useState('');
 
   const handleOperandClick =(digit)=>{
